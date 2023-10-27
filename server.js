@@ -77,6 +77,6 @@ app.delete("/api/notes/:id", (req, res) => {
 });
 
 // Listener on PORT
-app.listen(PORT, () => {
-  console.log(`Example app listening at http://localhost:${PORT}`);
+app.listen(process.env.PORT || PORT, () => {
+  console.log(`Example app listening at port ${this.address.port}`);
 });

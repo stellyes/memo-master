@@ -74,9 +74,12 @@ app.delete("/api/notes/:id", (req, res) => {
       throw new Error(err);
     }
   });
+
+  // Send updated data back to
+  res.send(noteData);
 });
 
 // Listener on PORT
 app.listen(process.env.PORT || PORT, () => {
-  console.log(`Example app listening at port ${this.address.port}`);
+  console.log(`Example app listening at port ${PORT}`);
 });

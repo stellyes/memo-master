@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "title": "Do my laundry",
+    "text": "today",
+    "id": "355ab86c80d0c07c6c796ed96c8a6ae11fe4199d"
+  },
+  {
+    "title": "Clean hardwood ",
+    "text": "today",
+    "id": "471d2348860011e6ed7b00e2ecf23958e5d3c3e9"
+  },
+  {
+    "title": "Clean bathroom",
+    "text": "today",
+    "id": "d07d0d1acf3794fb25a689e5cc6d772e2e3e3d72"
+  }
+]
